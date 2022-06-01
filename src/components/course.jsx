@@ -4,6 +4,7 @@ function Course(){
 
     return (
         <div className="courseFeed">
+            <div className="courseBox"><p>1. Lektion</p></div>
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
@@ -11,7 +12,7 @@ function Course(){
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
             <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
+            
         </div>
     )
 }
