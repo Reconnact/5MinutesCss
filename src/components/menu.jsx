@@ -1,7 +1,7 @@
 import React from "react";
 import '../index.css';
 
-function Course(){
+function Menu(){
     return (
         <div class="menu">
                 <ul style={{marginTop: 0}}>
@@ -28,4 +28,4 @@ function Course(){
     )
 }
 
-export default Course;
+export default Menu;

@@ -9,12 +9,12 @@ import Menu from "./components/menu";
 function StartingPage(){
     return (
         <body>
-        <Header/>
-        <main className="mainBox">
-            <Course />
-            <Menu />
-        </main>
-    </body>              
+            <Header/>
+            <main className="mainBox">
+                <Course />
+            <   Menu />
+            </main>
+        </body>              
     )
 }
 

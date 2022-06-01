@@ -1,12 +1,12 @@
 import React from "react";
 import '../index.css';
-function Course(){
+function Header(){
 
     return (
         <div class="topnav">
-            <h2>5MinutesCss</h2>
+            <h2><a href="/">5MinutesCss</a></h2>
         </div>
     )
 }
 
-export default Course;
+export default Header;
