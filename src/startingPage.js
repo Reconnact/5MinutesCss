@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Lessons from "./lessons";
 import Header from "./components/header";
-import LessonLayout from "./components/lessonLayout";
+import Lesson from "./components/lesson";
 
 
 function StartingPage(){
@@ -24,7 +24,7 @@ function StartingPage(){
                         </main>
                     </body>
                 }/>
-                <Route path="/lessonLayout" element={<LessonLayout />}/>
+                <Route path="/lesson/:lessonName" element={<Lesson/>}/>
                 <Route path="/lessons" element={<Lessons />}/>
                 <Route path="*" element={<div>404</div>}/>
             </Routes>

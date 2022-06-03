@@ -12,7 +12,7 @@ function StartingPage(){
             <Header/>
             <main className="mainBox">
                 <Course />
-            <   Menu />
+                <Menu />
             </main>
         </body>              
     )
