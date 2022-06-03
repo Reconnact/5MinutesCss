@@ -4,14 +4,14 @@ function Course(){
 
     return (
         <div className="courseFeed">
-            <div className="courseBox"><p>1. Lektion</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
-            <div className="courseBox"><p>Dies wird ein Beitrag</p></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
+            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
             
         </div>
     )

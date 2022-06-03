@@ -39,8 +39,18 @@ a {
 
 .courseBox {
   width: 47%;
+  height: 100px;
   margin-bottom: 2%;
   background-color: #64f58d;
+}
+
+.courseBox a{
+  display: block;
+  height: 100%;
+}
+
+.innerBox {
+  padding: 5%;
 }
 
 .menu {
