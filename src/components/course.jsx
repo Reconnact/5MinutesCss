@@ -1,18 +1,14 @@
 import React from "react";
+import lessons from "../lessons.json";
 
 function Course(){
+    let lessonNames = Object.keys(lessons);
 
     return (
         <div className="courseFeed">
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            <div className="courseBox"><a href="/lesson/css-overview"><div className="innerBox">CSS Overview</div></a></div>
-            
+            {lessonNames.map((data) => (
+                <div className="courseBox"><a href={"lesson/" + data}><div className="innerBox">{lessons[data].title}</div></a></div>
+            ))}
         </div>
     )
 }

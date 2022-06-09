@@ -1,6 +1,10 @@
 {
   "css-overview": {
-      "title": "CSS Overview",
-      "text": "We use CSS to style Web pages."
-    }  
+    "title": "CSS Overview",
+    "text": "We use CSS to style Web pages."
+  },
+  "css-syntax": {
+    "title": "CSS Syntax",
+    "text": "This is the CSS Syntax:"
+  }  
 }
