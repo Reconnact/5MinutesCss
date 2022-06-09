@@ -9,11 +9,10 @@ function Menu(){
                         <a href="/" class="btn"><i class="fa"></i>Home</a>
                     </li>
                     <li class="item" id="menu1">
-                        <a href="#menu1" class="btn"><i class="fa"></i>Menu1</a>
+                        <a href="#menu1" class="btn"><i class="fa"></i>CSS Tutorial</a>
                         <div class="smenu">
-                            <a href="">Submenu</a>
-                            <a href="">Submenu</a>
-                            <a href="">Submenu</a>
+                            <a href="/lesson/css-overview">CSS Overview</a>
+                            <a href="/lesson/css-syntax">CSS Syntax</a>
                         </div>
                     </li>
                     <li class="item" id="menu2">
