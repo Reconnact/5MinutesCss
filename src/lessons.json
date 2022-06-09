@@ -1,10 +1,17 @@
 {
   "css-overview": {
     "title": "CSS Overview",
-    "text": "We use CSS to style Web pages."
+    "paragraph1": {
+      "subtitle": "What is CSS?",
+      "text": "We use CSS to style Web pages.\n\nCSS stands for Cascading Style Sheets\n\nCSS describes how HTML elements are to be displayed on screen, paper, or in other media\n\nCSS saves a lot of work.\n\nIt can control the layout of multiple web pages all at onceExternal stylesheets are stored in CSS files"
+    }
   },
   "css-syntax": {
     "title": "CSS Syntax",
-    "text": "This is the CSS Syntax:"
+    "paragraph2": {
+      "subtitle": "This is the CSS Syntax:",
+      "text": "Here is going to be the Syntax"
+    }
+    
   }  
 }
