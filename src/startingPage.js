@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Lessons from "./lessons";
+import Menu from "./components/menu";
 import Header from "./components/header";
 import Lesson from "./components/lesson";
 
@@ -18,9 +19,12 @@ function StartingPage(){
                 <Route path="/" element={
                     <body>
                         <Header/>
-                        <main>
-                            Welcome to 5MinutesCss!
-                            <p>Here are the <a href="/lessons" style={{color: "blue"}}>Lessons</a></p>
+                        <main className="mainBox">
+                            <div style={{width: "70%"}}>
+                                Welcome to 5MinutesCss!
+                                <p>Here are the <a href="/lessons" style={{color: "blue"}}>Lessons</a></p>
+                            </div>
+                            <Menu/>
                         </main>
                     </body>
                 }/>
